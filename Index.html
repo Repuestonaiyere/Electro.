@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electro Lexizuri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    /* Estilos generales */
+    .header,
+    .footer {
+      background-color: #2980b9;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .content {
+      background-color: white;
+      padding: 40px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .contact-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 5px 10px;
+      background-color: #2980b9;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      width: 100px;
+    }
+    .contact-buttons img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    .contact-buttons-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .map-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+    .chatbot-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+    .chatbot-container img {
+      width: 60px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .chatbot-button {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      font-size: 24px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      display: block;
+      text-decoration: none; /* Para asegurar que no se subraye el texto */
+    }
+    /* Estilos específicos */
+    .profile-img-medium {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado de la página -->
+  <div class="header">
+    <img src="https://i.imgur.com/nojWb5s.jpg" alt="Foto de perfil" class="profile-img-medium">
+    <h1>Electro Lexizuri</h1>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="content">
+    <h2>Quiénes somos</h2>
+    <p>Somos una empresa dedicada a proveer repuestos y accesorios de calidad para motos eléctricas. Nuestro objetivo es satisfacer las necesidades de nuestros clientes con productos de alta calidad y un excelente servicio al cliente.</p>
+    <h2>Nuestros productos</h2>
+    <p>Ofrecemos una amplia variedad de repuestos y accesorios para motos eléctricas, incluyendo baterías, llantas, frenos, luces, y mucho más. Todos nuestros productos son de marcas reconocidas y garantizamos su calidad.</p>
+    <h2>Servicios</h2>
+    <p>Además de ofrecer repuestos y accesorios, también brindamos servicios de instalación y mantenimiento de piezas para motos eléctricas. Nuestro equipo de técnicos altamente capacitados está listo para ayudarte con cualquier necesidad que tengas.</p>
+  </div>
+
+  <!-- Botones de contacto -->
+  <div class="contact-buttons contact-buttons-column">
+     <a href="https://www.facebook.com/naiadolores.paucarmoreira" target="_blank"><img src="https://i.imgur.com/bhrfziy.jpg" alt="Facebook"></a>
+    <a href="https://wa.me/593992547403?text=%0A%C2%A1Hola!%20Bienvenido/a%20a%20Electro%20Lexizuri.%20%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte?" target="_blank"><img src="https://i.imgur.com/xFRtsON.png" alt="WhatsApp"></a>
+    <a href="https://www.tiktok.com/@tecnolexizuri?_t=8jrVyTeCMJJ&_r=1" target="_blank"><img src="https://i.imgur.com/e5NojKB.png" alt="tiktok"></a>
+    <a href="https://youtube.com/@ElectroLexizuri?si=257LZtFFpokiLKfA" target="_blank"><img src="https://i.imgur.com/griwssT.png" alt="YouTube"></a>
+  </div>
+
+  
+  
+  <!-- Mapa GPS -->
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15905.165415398283!2d-74.07663745622402!3d4.598242032573448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ce899b0bcdb%3A0xf787b6251e0e73b1!2sRepuestos%20Naiyere!5e0!3m2!1ses!2sco!4v1644662950330!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <!--class="contact-buttons contact-buttons-column">
+    <a href="https://goo.gl/maps/ex6dcZzjWmkHs6Zr8" target="_blank">Mapa</a>
+  </div>
+
+  <!-- Pie de página -->
+  <div class="footer">
+    <p>Derechos de autor © 2024 Electro Lexizuri</p>
+  </div>
+
+  <!-- Contenedor del chatbot -->
+  <div class="chatbot-container">
+    <!-- Botón de chatbot -->
+    <a href="https://wa.me/593992547403?text=%0A%C2%A1Hola!%20Bienvenido/a%20a%20Electro%20Lexizuri.%20%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte?" target="_blank" class="chatbot-button">🤖</a>
+  </div>
+</body>
+</html>
+
+  <div
